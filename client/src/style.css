@@ -59,6 +59,22 @@ font-family: 'Voltaire', sans-serif;
 
 /* contact info */
 
+.contactform button {
+    background-color: rgb(189, 174, 198);
+    color: rgb(66, 28, 82);
+    padding: 15px 50px;
+    margin: 10px;
+    font-family: 'Voltaire', sans-serif;
+    font-weight: bold;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .contactInfo {
     height: 200px;
     color: rgb(66, 28, 82);
@@ -68,6 +84,12 @@ font-family: 'Voltaire', sans-serif;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* footer */
+
+.foot {
+    text-align: center;
 }
 
 /* image styles */
