@@ -1,4 +1,90 @@
+/* color pallet 
+dark purple:  66, 28, 82, 
+light purple: 115, 44, 123,  
+amethyst smoke: 156, 138, 165,
+violet blue: 189, 174, 198
+white: 255, 255, 255
+*/
+
+/* imprted fonts
+font-family: 'Press Start 2P', cursive;
+font-family: 'Voltaire', sans-serif;
+*/
+
+/* mobile styles */
+
+/* nav bar */
+
+.title p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(156, 174, 198);
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: underline;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(66, 28, 82)
+}
+
+.navBar a {
+    /* padding: 30px 20px; */
+    background-color: rgb(66, 28, 82);
+    color: rgb(189, 174, 198);
+    font-family: 'Voltaire', sans-serif;
+}
+
+/* home page/body styles */
+
+.home {
+    background-color: rgb(189, 174, 198);
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: double rgb(66, 28, 82) 1px;
+    margin: 1px 0;
+    font-family: 'Voltaire', sans-serif;
+    color: white;
+    background-color: rgb(66, 28, 82);
+}
+
+/* contact info */
+
+.contactInfo {
+    height: 200px;
+    color: rgb(66, 28, 82);
+    font-family: 'Voltaire', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* image styles */
+
+.kristnaWells {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 img {
     width: 300px;
     height: 400px;
+}
+
+.headShot {
+    width: 200px;
+    height: 250px;
+    border-radius: 100%;
 }
