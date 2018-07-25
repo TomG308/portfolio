@@ -22,9 +22,9 @@ export default class ContactMe extends Component {
 
   render() {
     return (
-      <div className='home'>
-        <div className='welcome'>
-        <img src={TomVS} alt="headShot" className='headShot'/>
+      <div>
+        <div className='contactMe'>
+          <img src={TomVS} alt="headShot" className='headShot'/>
           <p>If you would like to contact me please fill out you infomation to send me an email.</p>
           <div className='contactform'>
             <form> {/* <-- rememer to add the onSubmit function */}

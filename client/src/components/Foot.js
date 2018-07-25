@@ -4,8 +4,8 @@ export default () => {
   return (
     <div className='foot'>
       <p>website created by Thomas Gutierrez</p>
-      <p>cloudy.velfa@gmail.com : 435-496-9457</p>
-      <p><a href="www.linkedin.com/in/tg308">linkdin</a> : <a href="www.github.com/tomg308">github</a></p>
+      <p>Phone number: 495-496-9457 : Email: cloudy.velfa@gmail.com</p>
+      <p><a href="https://www.linkedin.com/in/tg308" target="_blank" rel="noopener noreferrer">linkdin</a> : <a href="https://www.github.com/tomg308" target="_blank" rel="noopener noreferrer">github</a></p>
     </div>
   )
 }

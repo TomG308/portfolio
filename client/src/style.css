@@ -15,28 +15,24 @@ font-family: 'Voltaire', sans-serif;
 
 /* nav bar */
 
-.title p{
+.title {
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgb(156, 174, 198);
     font-family: 'Press Start 2P', cursive;
     text-decoration: underline;
-}
-
-.navBar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100px;
-    background-color: rgb(66, 28, 82)
-}
-
-.navBar a {
-    /* padding: 30px 20px; */
+    /* font-size: 50px; */
     background-color: rgb(66, 28, 82);
-    color: rgb(189, 174, 198);
-    font-family: 'Voltaire', sans-serif;
+    height: 75px;
+    margin: 0%;
+}
+
+.banner {
+    background: url('./assets//kai-oberhauser-179931-unsplash.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 700px;
 }
 
 /* home page/body styles */
@@ -53,19 +49,31 @@ font-family: 'Voltaire', sans-serif;
     border: double rgb(66, 28, 82) 1px;
     margin: 1px 0;
     font-family: 'Voltaire', sans-serif;
-    color: white;
+    color: rgb(156, 174, 198);
     background-color: rgb(66, 28, 82);
 }
 
 /* contact info */
 
-.contactform button {
+ button {
     background-color: rgb(189, 174, 198);
     color: rgb(66, 28, 82);
     padding: 15px 50px;
     margin: 10px;
     font-family: 'Voltaire', sans-serif;
     font-weight: bold;
+}
+
+.contactMe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: double rgb(66, 28, 82) 1px;
+        margin: 1px 0;
+        font-family: 'Voltaire', sans-serif;
+        color: rgb(156, 174, 198);
+        background-color: rgb(66, 28, 82);
 }
 
 .contactform {
@@ -77,19 +85,33 @@ font-family: 'Voltaire', sans-serif;
 
 .contactInfo {
     height: 200px;
-    color: rgb(66, 28, 82);
+    background-color: rgb(66, 28, 82);
+    color: rgb(156, 174, 198);
     font-family: 'Voltaire', sans-serif;
     font-weight: bold;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -3px;
+    border: solid rgb(189, 174, 198) 1px;
 }
+
+.contactInfo a:visited {
+    color: rgb(189, 174, 198);
+}
+
+
 
 /* footer */
 
 .foot {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(189, 174, 198);
+    color: rgb(115, 44, 123);
 }
 
 /* image styles */
@@ -110,3 +132,31 @@ img {
     height: 250px;
     border-radius: 100%;
 }
+
+
+/* tablet */
+
+@media only screen and (min-width: 800px) {
+
+    .title {
+        font-size: 30px;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .welcome p{
+        margin: 20px;
+        color: rgb(156, 174, 198)
+    }
+
+    .foot {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
