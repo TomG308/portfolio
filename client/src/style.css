@@ -152,9 +152,10 @@ img {
     margin: auto;
 }
 
-
     .title {
         font-size: 30px;
+        width: 90%;
+        margin: auto;
     }
 
     .home {
@@ -168,6 +169,11 @@ img {
     .welcome p{
         margin: 20px;
         color: rgb(156, 174, 198)
+    }
+
+    .contactInfo {
+        width: 90%;
+        margin: auto;
     }
 
     .foot {

@@ -6,7 +6,7 @@ import './style.css';
 import Banner from './components/Banner'
 import Home from './components/Home';
 import Projects from './components/Projects';
-import ContactMe from './components/ContactMe';
+import ContactInfo from './components/ContactInfo';
 import Foot from './components/Foot';
 
 const App = () => {
@@ -14,8 +14,8 @@ const App = () => {
     <div>
       <Banner />
       <Home />
+      <ContactInfo />
       <Projects />
-      <ContactMe />
       <Foot />
     </div>
   )
