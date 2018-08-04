@@ -7,9 +7,12 @@ const Home = () => {
   return (
     <div className='home'>
       <div className='welcome'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vitae magnam voluptates iste nesciunt perferendis tenetur obcaecati cum quis autem, esse dolore commodi atque ipsa ut ad, beatae qui error?</p>
+        <p>Hello, My name is Thomas Gutierrez I'm a full stack web developer who curently lives in Salt Lake City, Ut. I graduated from V School's full stack web developer program in July 2018. The program focused mainly on JavaScript, ReactJS, Express, MongoDB, and node, as well as HTML5 and CSS3.</p>
 
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero ex quibusdam necessitatibus soluta voluptatum pariatur eos aut eius. Facere ullam dolore iure animi. Debitis eum dolor repudiandae labore distinctio dicta!</p>
+        <p>As a programmer I enjoy working in the front end and I work everyday to inprove my design skills. In my free time my hobbies include biking, video games, and hiking.</p>
+
+        <p>Check out my <a href="https://www.github.com/tomg308">github</a> here.</p>
+        
       </div>
       <div className='kristnaWells'>
         <Img />

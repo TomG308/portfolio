@@ -58,6 +58,10 @@ body {
     background-color: rgb(66, 28, 82);
 }
 
+.welcome a {
+    color: rgb(189, 174, 198);
+}
+
 /* contact info */
 
  button {
@@ -106,7 +110,30 @@ body {
     color: rgb(189, 174, 198);
 }
 
+/* projects */
 
+.projects-container {
+    background-color: rgb(115, 44, 123);
+    height: auto;
+    color: rgb(156, 174, 198);
+    text-align: center;
+}
+
+.projLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: solid 3px transparent;
+    border-image: linear-gradient(to right, white,black ,white);
+    border-image-slice: 1;
+}
+
+.projectIcons {
+    width: 300px;
+    height: 150px;
+}
 
 /* footer */
 
@@ -137,6 +164,7 @@ img {
     height: 250px;
     border-radius: 100%;
 }
+
 
 
 /* tablet */
@@ -174,6 +202,24 @@ img {
     .contactInfo {
         width: 90%;
         margin: auto;
+    }
+
+    .projects-container {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .projLink {
+        border-bottom: none;
+    }
+
+    .link-container {
+        display: flex;
+        justify-content: space-evenly;
     }
 
     .foot {
